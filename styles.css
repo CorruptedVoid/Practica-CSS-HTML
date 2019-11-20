@@ -1,0 +1,34 @@
+.site_header {
+   background-image: url(../img/header.jpg);/*Inserta la imagen dentro del header del sitio */
+   background-position: center center;
+   background-size: cover;/*Guarda las proporciones de la imagen*/
+   height: 100vh;/*Aplica el 100% del alto a la pantalla*/
+   min-height: 600px;/*Aplica el minimo de altura a la pantalla*/
+}
+.contenedor {
+	max-width: 1200px;/*Aplica un ancho maximo de 1200 pixeles*/
+	margin: 0 auto;/*Este margin nos ayuda a centar los elementos en la pantalla*/
+	color: white;/*Aplico un color a los elementos del Header (cabecera)*/
+
+}
+.contenido-header {
+	height: 100%;
+	display: flex;/*Nos alinea los elementos uno al lado del otro*/
+	justify-content: space-between;/*Crea una separacion entre los elementos*/
+	flex-direction: column;/*Nos ordena los elementos en forma de columnas*/
+}
+.contenedor-barra {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.navegacion a {
+	color: white;
+	text-decoration: none;/*Elimina las lineas del texto de la barra de navegacion (el subrayado)*/
+	font-size: 20px;
+	margin-right: 20px;
+
+}
+.navegacion a:hover {
+	color: blue;
+}
